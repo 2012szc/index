@@ -187,21 +187,6 @@
             margin-bottom: 1rem;
         }
 
-        .tech-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin: 1rem 0;
-        }
-
-        .tag {
-            background: rgba(0, 180, 216, 0.2);
-            color: #00b4d8;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
         /* 响应式设计 */
         @media (max-width: 768px) {
             .profile {
@@ -258,44 +243,38 @@
     <section id="projects" class="projects">
         <div class="projects-grid">
             <!-- 示例项目卡片 -->
-            <div class="project-card">
-                <img src="https://bing.img.run/1920x1080_302.php" 
+            <a href="https://cn.bing.com" class="project-card"> <!-- 添加超链接 -->
+                <img src="https://cn.bing.com/th?id=OHR.RadcliffeCamera_EN-CN5700316396_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" 
                      alt="Project 1" 
                      class="project-image">
                 <h3>bing今日壁纸</h3>
                 <p>bing壁纸API调用</p>
-                <div class="tech-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">TensorFlow</span>
-                    <span class="tag">Flask</span>
-                </div>
-            </div>
+            </a>
 
-            <div class="project-card">
-                <img src="https://n.sinaimg.cn/tech/transform/132/w630h302/20250214/b3a0-fbfd002a5b4b37cc03bddfd6b8c1023b.jpg" 
+            <a href="https://cnews.chinadaily.com.cn/a/202502/19/WS67b54fa4a310510f19ee7d0e.html" class="project-card"> <!-- 添加超链接 -->
+                <img src="https://cds.chinadaily.com.cn/dams/capital/image/202502/19/67b54f41e4b0ccc959911480_m.jpeg" 
                      alt="Project 2" 
                      class="project-image">
                 <h3>哪吒</h3>
-                <p>哪吒破百亿意义何止百亿</p>
-                <div class="tech-tags">
-                    <span class="tag">React</span>
-                    <span class="tag">Node.js</span>
-                    <span class="tag">MongoDB</span>
-                </div>
-            </div>
+                <p>哪吒2 官方宣布延长上映至3月30日</p>
+            </a>
 
-            <div class="project-card">
-                <img src="https://www.deepseek.com/_next/image?url=https%3A%2F%2Fcdn.deepseek.com%2Flogo.png&w=1920&q=75" 
+            <a href="https://deepseek.com" class="project-card"> <!-- 添加超链接 -->
+                <img src="https://chat.deepseek.com/deepseek-chat.jpeg" 
                      alt="Project 3" 
                      class="project-image">
                 <h3>deepseek</h3>
                 <p>探索未至之境</p>
-                <div class="tech-tags">
-                    <span class="tag">D3.js</span>
-                    <span class="tag">TypeScript</span>
-                    <span class="tag">AWS</span>
-                </div>
-            </div>
+            </a>
+
+            <a href="https://www.msn.cn/zh-cn/news/other/%E7%A7%B0911%E6%AF%9499%E5%A4%A7-%E5%A4%A9%E4%B8%8B%E6%9C%80%E8%81%AA%E6%98%8E-%E7%9A%84grok3%E7%BF%BB%E8%BD%A6%E4%BA%86/ar-AA1zksE0?ocid=TobArticle" class="project-card"> <!-- 添加超链接 -->
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1zknBB.img?w=534&h=311&m=6" 
+                     alt="Project 2" 
+                     class="project-image">
+                <h3>天下最聪明”的Grok3翻车了</h3>
+                <p>昨日，马斯克旗下的人工智能公司xAI举行了一场技术演示，正式发布了其最新的大模型——Grok 3。</p>
+            </a>
+
         </div>
     </section>
 </body>
